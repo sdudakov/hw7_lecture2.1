@@ -27,12 +27,7 @@ with open("data_hw7.txt", "r", encoding="utf-8") as f:
       ingridient = ingridient.split(" | ")
       new_shop_list_item = dict({"ingridient_name": ingridient[0], "quantity": ingridient[1], "measure": ingridient[2]})
       print(new_shop_list_item)
-      # shop_list[dish.strip()] = ingridient_list
-      # shop_list['ingridient_name'] = ingridient[0]
-      # shop_list['quantity'] = ingridient[1]
-      # shop_list['measure'] = ingridient[2]
-      # print("ingridient_name {} quantity {} measure {}" .format(ingridient[0], ingridient[1], ingridient[2]))
-
+      
 
 def get_shop_list_by_dishes(dishes, person_count):
   shop_list = {}
